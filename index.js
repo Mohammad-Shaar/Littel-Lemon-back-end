@@ -11,15 +11,6 @@ const User = require("./models/User");
 
 const app = express();
 
-// Enable CORS for all routes
-app.use(cors());
-
-app.use(
-  cors({
-    origin: "http://localhost:5173", // Set the allowed origin
-  })
-);
-
 mongoose
   .connect(
     "mongodb+srv://sha989:FX7x01zSKXAGJVB2@cluster0.kggjqo6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
