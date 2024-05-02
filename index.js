@@ -16,7 +16,7 @@ app.use(cors());
 
 app.use(
   cors({
-    origin: "https://mohammad-shaar.github.io", // Set the allowed origin
+    origin: " http://localhost:4173", // Set the allowed origin
   })
 );
 
